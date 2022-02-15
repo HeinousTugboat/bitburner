@@ -1,0 +1,115 @@
+UnstableCircadianModulator -- "Speakers for the Dead"
+HemoRecirculator -- "Tetrads", "The Dark Army", "The Syndicate"
+Targeting1 --  "Slum Snakes", "The Dark Army", "The Syndicate", "Sector-12", "Ishima", "OmniTek Incorporated", "KuaiGong International", "Blade Industries",
+Targeting2 --  "The Dark Army", "The Syndicate", "Sector-12", "OmniTek Incorporated", "KuaiGong International", "Blade Industries",
+Targeting3 --  "The Dark Army", "The Syndicate", "OmniTek Incorporated", "KuaiGong International", "Blade Industries", "The Covenant",
+SyntheticHeart --  "KuaiGong International", "Fulcrum Secret Technologies", "Speakers for the Dead", "NWO", "The Covenant", "Daedalus", "Illuminati",
+SynfibrilMuscle --  "KuaiGong International", "Fulcrum Secret Technologies", "Speakers for the Dead", "NWO", "The Covenant", "Daedalus", "Illuminati", "Blade Industries",
+CombatRib1 --  "Slum Snakes", "The Dark Army", "The Syndicate", "Volhaven", "Ishima", "OmniTek Incorporated", "KuaiGong International", "Blade Industries",
+CombatRib2 --  "The Dark Army", "The Syndicate", "Volhaven", "OmniTek Incorporated", "KuaiGong International", "Blade Industries",
+CombatRib3 --  "The Dark Army", "The Syndicate", "OmniTek Incorporated", "KuaiGong International", "Blade Industries", "The Covenant",
+NanofiberWeave --  "Tian Di Hui", "The Syndicate", "The Dark Army", "Speakers for the Dead", "Blade Industries", "Fulcrum Secret Technologies", "OmniTek Incorporated",
+SubdermalArmor --  "The Syndicate", "Fulcrum Secret Technologies", "Illuminati", "Daedalus", "The Covenant",
+WiredReflexes --  "Tian Di Hui", "Slum Snakes", "Sector-12", "Volhaven", "Aevum", "Ishima", "The Syndicate", "The Dark Army", "Speakers for the Dead",
+GrapheneBoneLacings -- "Fulcrum Secret Technologies", "The Covenant"
+BionicSpine --  "Speakers for the Dead", "The Syndicate", "KuaiGong International", "OmniTek Incorporated", "Blade Industries",
+GrapheneBionicSpine -- "Fulcrum Secret Technologies", "ECorp"
+BionicLegs --  "Speakers for the Dead", "The Syndicate", "KuaiGong International", "OmniTek Incorporated", "Blade Industries",
+GrapheneBionicLegs -- "MegaCorp", "ECorp", "Fulcrum Secret Technologies"
+SpeechProcessor --  "Tian Di Hui", "Chongqing", "Sector-12", "New Tokyo", "Aevum", "Ishima", "Volhaven", "Silhouette",
+TITN41Injection -- "Silhouette"
+EnhancedSocialInteractionImplant --  "Bachman & Associates", "NWO", "Clarke Incorporated", "OmniTek Incorporated", "Four Sigma",
+BitWire -- "CyberSec", "NiteSec"
+ArtificialBioNeuralNetwork -- "BitRunners", "Fulcrum Secret Technologies"
+ArtificialSynapticPotentiation -- "The Black Hand", "NiteSec"
+EnhancedMyelinSheathing -- "Fulcrum Secret Technologies", "BitRunners", "The Black Hand"
+SynapticEnhancement -- "CyberSec", "Aevum"
+NeuralRetentionEnhancement -- "NiteSec"
+DataJack -- "BitRunners", "The Black Hand", "NiteSec", "Chongqing", "New Tokyo"
+ENM --  "BitRunners", "The Black Hand", "NiteSec", "ECorp", "MegaCorp", "Fulcrum Secret Technologies", "NWO", "Blade Industries",
+ENMCore --  "BitRunners", "The Black Hand", "ECorp", "MegaCorp", "Fulcrum Secret Technologies", "NWO", "Blade Industries",
+ENMCoreV2 --  "BitRunners", "ECorp", "MegaCorp", "Fulcrum Secret Technologies", "NWO", "Blade Industries", "OmniTek Incorporated", "KuaiGong International",
+ENMCoreV3 --  "ECorp", "MegaCorp", "Fulcrum Secret Technologies", "NWO", "Daedalus", "The Covenant", "Illuminati",
+ENMAnalyzeEngine --  "ECorp", "MegaCorp", "Fulcrum Secret Technologies", "NWO", "Daedalus", "The Covenant", "Illuminati",
+ENMDMA --  "ECorp", "MegaCorp", "Fulcrum Secret Technologies", "NWO", "Daedalus", "The Covenant", "Illuminati",
+Neuralstimulator --  "The Black Hand", "Chongqing", "Sector-12", "New Tokyo", "Aevum", "Ishima", "Volhaven", "Bachman & Associates", "Clarke Incorporated", "Four Sigma",
+NeuralAccelerator -- "BitRunners"
+CranialSignalProcessorsG1 -- "CyberSec"
+CranialSignalProcessorsG2 -- "CyberSec", "NiteSec"
+CranialSignalProcessorsG3 -- "NiteSec", "The Black Hand", "BitRunners"
+CranialSignalProcessorsG4 -- "The Black Hand", "BitRunners"
+CranialSignalProcessorsG5 -- "BitRunners"
+NeuronalDensification -- "Clarke Incorporated"
+NuoptimalInjectorImplant --  "Tian Di Hui", "Volhaven", "New Tokyo", "Chongqing", "Clarke Incorporated", "Four Sigma", "Bachman & Associates",
+SpeechEnhancement --  "Tian Di Hui", "Speakers for the Dead", "Four Sigma", "KuaiGong International", "Clarke Incorporated", "Bachman & Associates",
+FocusWire -- "Bachman & Associates", "Clarke Incorporated", "Four Sigma", "KuaiGong International"
+PCDNI -- "Four Sigma", "OmniTek Incorporated", "ECorp", "Blade Industries"
+PCDNIOptimizer -- "Fulcrum Secret Technologies", "ECorp", "Blade Industries"
+PCDNINeuralNetwork -- "Fulcrum Secret Technologies"
+ADRPheromone1 -- "Tian Di Hui", "The Syndicate", "NWO", "MegaCorp", "Four Sigma"
+ADRPheromone2 -- "Silhouette", "Four Sigma", "Bachman & Associates", "Clarke Incorporated"
+ShadowsSimulacrum -- "The Syndicate", "The Dark Army", "Speakers for the Dead"
+HacknetNodeCPUUpload -- "Netburners"
+HacknetNodeCacheUpload -- "Netburners"
+HacknetNodeNICUpload -- "Netburners"
+HacknetNodeKernelDNI -- "Netburners"
+HacknetNodeCoreDNI -- "Netburners"
+Neurotrainer1 -- "CyberSec", "Aevum"
+Neurotrainer2 -- "BitRunners", "NiteSec"
+Neurotrainer3 -- "NWO", "Four Sigma"
+Hypersight -- "Blade Industries", "KuaiGong International"
+LuminCloaking1 -- "Slum Snakes", "Tetrads"
+LuminCloaking2 -- "Slum Snakes", "Tetrads"
+SmartSonar -- "Slum Snakes"
+PowerRecirculator -- "Tetrads", "The Dark Army", "The Syndicate", "NWO"
+QLink -- "Illuminati"
+RedPill -- "Daedalus"
+SPTN97 -- "The Covenant"
+HiveMind -- "ECorp"
+CordiARCReactor -- "MegaCorp"
+SmartJaw -- "Bachman & Associates"
+Neotra -- "Blade Industries"
+Xanipher -- "NWO"
+HydroflameLeftArm -- "NWO"
+nextSENS -- "Clarke Incorporated"
+OmniTekInfoLoad -- "OmniTek Incorporated"
+PhotosyntheticCells -- "KuaiGong International"
+Neurolink -- "BitRunners"
+TheBlackHand -- "The Black Hand"
+CRTX42AA -- "NiteSec"
+Neuregen -- "Chongqing"
+CashRoot -- "Sector-12"
+NutriGen -- "New Tokyo"
+PCMatrix -- "Aevum"
+INFRARet -- "Ishima"
+DermaForce -- "Volhaven"
+GrapheneBrachiBlades -- "Speakers for the Dead"
+GrapheneBionicArms -- "The Dark Army"
+BrachiBlades -- "The Syndicate"
+BionicArms -- "Tetrads"
+SNA -- "Tian Di Hui"
+NeuroreceptorManager -- "Tian Di Hui"
+EsperEyewear -- BladeburnersFactionName
+EMS4Recombination -- BladeburnersFactionName
+OrionShoulder -- BladeburnersFactionName
+HyperionV1 -- BladeburnersFactionName
+HyperionV2 -- BladeburnersFactionName
+GolemSerum -- BladeburnersFactionName
+VangelisVirus -- BladeburnersFactionName
+VangelisVirus3 -- BladeburnersFactionName
+INTERLINKED -- BladeburnersFactionName
+BladeRunner -- BladeburnersFactionName
+BladeArmor -- BladeburnersFactionName
+BladeArmorPowerCells -- BladeburnersFactionName
+BladeArmorEnergyShielding -- BladeburnersFactionName
+BladeArmorUnibeam -- BladeburnersFactionName
+BladeArmorOmnibeam -- BladeburnersFactionName
+BladeArmorIPU -- BladeburnersFactionName
+BladesSimulacrum -- BladeburnersFactionName
+StaneksGift1 -- ChurchOfTheMachineGodFactionName
+StaneksGift2 -- ChurchOfTheMachineGodFactionName
+StaneksGift3 -- ChurchOfTheMachineGodFactionName
+
+AugmentationHelpers.tsx:  .+\.addToFactions\(\[([" A-Za-z0-9-&.,\n]+)\]\);
+Collapse Arrays: \n +( ".+",|\]\))
+Format List: +(.+)\.addToFactions\(\[(.+)\]\);
