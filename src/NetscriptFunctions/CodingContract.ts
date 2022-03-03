@@ -4,7 +4,7 @@ import { IPlayer } from "../PersonObjects/IPlayer";
 import { getRamCost } from "../Netscript/RamCostGenerator";
 import { is2DArray } from "../utils/helpers/is2DArray";
 import { CodingContract } from "../CodingContracts";
-import { CodingContract as ICodingContract } from "../ScriptEditor/NetscriptDefinitions";
+import { CodingAttemptOptions, CodingContract as ICodingContract } from "../ScriptEditor/NetscriptDefinitions";
 
 export function NetscriptCodingContract(
   player: IPlayer,
@@ -26,25 +26,28 @@ export function NetscriptCodingContract(
 
   return {
     attempt: function (
-      answer: any,
-      filename: any,
-      hostname: any = workerScript.hostname,
-      { returnReward }: any = {},
+      aanswer: unknown,
+      afilename: unknown,
+      ahostname: unknown = workerScript.hostname,
+      { returnReward }: CodingAttemptOptions = { returnReward: false },
     ): boolean | string {
       helper.updateDynamicRam("attempt", getRamCost(player, "codingcontract", "attempt"));
+      const filename = helper.string("attempt", "filename", afilename);
+      const hostname = helper.string("attempt", "hostname", ahostname);
       const contract = getCodingContract("attempt", hostname, filename);
+      let answer: string;
 
       // Convert answer to string. If the answer is a 2D array, then we have to
       // manually add brackets for the inner arrays
-      if (is2DArray(answer)) {
+      if (is2DArray(aanswer)) {
         const answerComponents = [];
-        for (let i = 0; i < answer.length; ++i) {
-          answerComponents.push(["[", answer[i].toString(), "]"].join(""));
+        for (let i = 0; i < aanswer.length; ++i) {
+          answerComponents.push(["[", aanswer[i].toString(), "]"].join(""));
         }
 
         answer = answerComponents.join(",");
       } else {
-        answer = String(answer);
+        answer = String(aanswer);
       }
 
       const creward = contract.reward;
