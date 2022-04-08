@@ -11,7 +11,7 @@ module.exports = (env, argv) => {
   const runInContainer = (env || {}).runInContainer === true;
   const isDevelopment = argv.mode === "development";
   const isFastRefresh = argv.fast === "true";
-  const outputDirectory = isDevServer ? "dist-dev" : "dist";
+  const outputDirectory = isDevServer ? "dist-dev" : "";
   const entry = "./src/index.tsx";
 
   const statsConfig = {
@@ -136,7 +136,7 @@ module.exports = (env, argv) => {
     // },
     entry: entry,
     output: {
-      path: path.resolve(__dirname, "./"),
+      path: path.resolve(__dirname, "./dist"),
       filename: "[name].bundle.js",
     },
     module: {
@@ -161,7 +161,7 @@ module.exports = (env, argv) => {
           loader: "file-loader",
           options: {
             name: "[contenthash].[ext]",
-            outputPath: "dist/images",
+            outputPath: "images",
           },
         },
       ],
@@ -184,7 +184,7 @@ module.exports = (env, argv) => {
         cacheGroups: {
           vendor: {
             test: /[\\/]node_modules[\\/]/,
-            name: `${outputDirectory}/vendor`,
+            name: `vendor`,
             chunks: "all",
           },
         },
