@@ -23,8 +23,8 @@ jobs:
         run: npm ci
       - name: Build the production app
         run: npm run build
-#       - name: Deploy Pages?
-#         uses: JamesIves/github-pages-deploy-action@v4
-#         with:
-#           branch: gh-pages # The branch the action should deploy to.
-#           folder: build # The folder the action should deploy.
+      - name: Deploy Pages?
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: build # The folder the action should deploy.
