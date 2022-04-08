@@ -1,4 +1,4 @@
-name: CI
+name: CI-Pages-Build
 
 on:
   # Triggers the workflow on push or pull request events but only for the dev branch
@@ -27,4 +27,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages # The branch the action should deploy to.
-          folder: build # The folder the action should deploy.
+          folder: dist # The folder the action should deploy.
