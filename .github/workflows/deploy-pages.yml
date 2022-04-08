@@ -22,7 +22,7 @@ jobs:
       - name: Install npm dependencies
         run: npm ci
       - name: Build the production app
-        run: npm run build
+        run: npm run build:dev
       - name: Deploy Pages?
         uses: JamesIves/github-pages-deploy-action@v4
         with:
